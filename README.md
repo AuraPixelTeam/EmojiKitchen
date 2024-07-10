@@ -4,7 +4,7 @@ Library to mix emojis use api https://emojikitchen.dev for NodeJS
 # How to use ?
 - Example API
 ```ts
-import { mergeEmoji } from "emojikitchen"
+import { mergeEmoji } from "@aurateam/emojikitchen"
 
 const emojiKitchen = mergeEmoji("😒", "😊")
 console.log(emojiKitchen);
@@ -12,13 +12,11 @@ console.log(emojiKitchen);
 
 - How to get result as Buffer?
 ```ts
-const emojiKitchen = mergeEmoji("😒", "😊")
 console.log(await emojiKitchen.toBuffer());
 ```
 
 - How to save result to image file?
 ```ts
-const emojiKitchen = mergeEmoji("😒", "😊")
 console.log(await emojiKitchen.saveImageToFile("./image.png"));
 ```
 
