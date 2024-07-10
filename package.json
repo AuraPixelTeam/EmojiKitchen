@@ -1,5 +1,5 @@
 {
-  "name": "emojikitchen",
+  "name": "@aurateam/emojikitchen",
   "version": "1.0.0",
   "description": "Library to mix emojis use api https://emojikitchen.dev for NodeJS",
   "main": "index.js",
