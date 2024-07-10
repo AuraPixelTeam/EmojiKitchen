@@ -1,0 +1,32 @@
+{
+  "name": "emojikitchen",
+  "version": "1.0.0",
+  "description": "Library to mix emojis use api https://emojikitchen.dev for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc && copyfiles -u 1 src/resources/**/* dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuraTeamAZ/EmojiKitchen.git"
+  },
+  "keywords": [
+    "emojikitchen"
+  ],
+  "author": "AuraTeam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AuraTeamAZ/EmojiKitchen/issues"
+  },
+  "homepage": "https://github.com/AuraTeamAZ/EmojiKitchen#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "fs": "^0.0.1-security",
+    "tsup": "^8.1.0"
+  }
+}
