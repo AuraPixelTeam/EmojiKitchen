@@ -2,7 +2,8 @@
   "name": "@aurateam/emojikitchen",
   "version": "1.0.0",
   "description": "Library to mix emojis use api https://emojikitchen.dev for NodeJS",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc && copyfiles -u 1 src/resources/**/* dist"
@@ -22,7 +23,8 @@
   "homepage": "https://github.com/AuraTeamAZ/EmojiKitchen#readme",
   "devDependencies": {
     "copyfiles": "^2.4.1",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "undici-types": "^6.19.2"
   },
   "dependencies": {
     "@types/node": "^20.14.10",
