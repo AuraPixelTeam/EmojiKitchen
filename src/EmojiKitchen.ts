@@ -39,7 +39,7 @@ export async function mergeEmoji(emoji_1: string, emoji_2: string): Promise<Emoj
 
     const res_1_status = res_1.status
     const res_2_status = res_2.status
-    if (res_1_status == 404 || res_2_status == 404) return undefined;
+    if (res_1_status == 404 && res_2_status == 404) return undefined;
 
     const url = (res_1_status == 404) ? url_2 : url_1;
 
